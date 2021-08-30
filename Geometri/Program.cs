@@ -12,18 +12,13 @@ namespace Geometri
         {
             //Opgave A
             Square a = new Square(4);
-            double omkreds = a.Omkreds();
-            Console.WriteLine(omkreds);
-
-            Square firkant = new Square(5);
-            double areal = firkant.Areal();
-            Console.WriteLine(areal);
+            Console.WriteLine(a.Omkreds());
+            Console.WriteLine(a.Areal());
             //Opgave B
-            a.Side = 10;
-            omkreds = a.Omkreds();
-            areal = a.Areal();
-            Console.WriteLine(omkreds);
-            Console.WriteLine(areal);
+            Square a1 = new Square();
+            a1.A = 10;
+            Console.WriteLine(a1.Omkreds());
+
             Console.ReadKey();
         }
     }

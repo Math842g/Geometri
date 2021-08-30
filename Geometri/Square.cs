@@ -26,6 +26,10 @@ namespace Geometri
             return areal;
         }
         //Opgave B
+        public Square()
+        {
+
+        }
         public double A
         {
             get
